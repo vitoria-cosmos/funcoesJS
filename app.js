@@ -65,5 +65,5 @@ function reiniciarJogo() {
     // exibirTextoNaTela('h1', 'Jogo do número secreto');
     // exibirTextoNaTela('p', 'Escolha um número entre 1 e 10.');
     exibirMensagemInicial();
-
+    document.getElementById('reiniciar').setAttribute('disabled', true);
 }
